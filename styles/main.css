@@ -27,21 +27,23 @@ h1 {
 }
 
 h2 {
-  text-align: center;
-  padding: 0 0 2.5em 0 ;
-  font-family: proxima-nova, sans-serif;
+text-align: center;
+padding: 0 0 0 0 ;
+font-family: proxima-nova, sans-serif;
 font-weight: 900;
 font-style: normal;
 font-size: 30;
 }
 
 #home-text {
-  text-align: center;
-  font-family: proxima-nova, sans-serif;
+
+text-align: center;
+font-family: proxima-nova, sans-serif;
 font-weight: 400;
 font-style: normal;
-padding: 20px;
+padding: 10px;
 font-size: 20;
+
 }
 
 #home {
@@ -71,6 +73,16 @@ font-size: 20;
 margin: 1em;
 
 }
+
+/* .intro {
+  min-height: 100px;
+  max-width: 200px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
 
 footer {
   background-color: #eeede1;
@@ -139,21 +151,26 @@ line-height: 1.25em;
 letter-spacing: 0.025em;
 padding-bottom: 2em;
 }
+
 #question {
 padding-bottom: 1em;
 font-family: proxima-nova, sans-serif;
 font-weight: 900;
 font-style: normal;
-
-
 }
 
-div {
-  background: red;
-  color: #eeede1;
-  width: 100px;
-  margin: auto;
+#Lorem-Ipsum {
+padding-bottom: 1em;
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+color: #a48948;
 }
+
+/* .image-example {
+  display: flex;
+  align-content: center;
+} */
 
 a {
   text-decoration: none;
@@ -161,10 +178,51 @@ a {
 }
 
 a:hover {
-  color: #a48948
+  color: #a48948;
+  /* box-shadow: 2.5px 2.5px 10px #a48948; */
   
 }
 
 a:active {
   color: #a48948;
 }
+
+.fb-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-bottom: 200px;
+  flex-wrap: wrap;
+}
+
+.fb-item {
+
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 2.5px 2.5px 10px #07212c;
+}
+
+.fb-item-1 {
+min-width: 100px;
+min-height: 100px;
+padding: 10px;
+}
+
+.fb-item-2 {
+min-width: 100px;
+min-height: 100px;
+padding: 10px;
+}
+
+.fb-item-3 {
+
+min-height: 100px;
+padding: 10px;
+}
+
+/* a#fb-hover {
+  box-shadow: 2.5px 2.5px 10px #a48948;
+} */
