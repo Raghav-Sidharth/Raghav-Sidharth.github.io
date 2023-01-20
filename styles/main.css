@@ -1,0 +1,170 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://use.typekit.net/cai1ged.css);
+}
+body {
+  background: #ffffff;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+
+
+}
+h1 {
+  color: #07212c;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  display: flexbox;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+
+h2 {
+  text-align: center;
+  padding: 0 0 2.5em 0 ;
+  font-family: proxima-nova, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 30;
+}
+
+#home-text {
+  text-align: center;
+  font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: normal;
+padding: 20px;
+font-size: 20;
+}
+
+#home {
+  /* background-image: url(../Images/Logo-\ Raghav-Dev-Academy-22.png); */
+  background-color: white;
+  text-align: left;
+  /* background-position: center;
+  background-size: 25%;
+  background-repeat: no-repeat;
+  color:#07212c; */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;;
+  padding-top: 20px;;
+  min-height: 200px;
+  max-height: 300px; */
+
+}
+
+.home-page {
+  background-color: white;
+  /* padding-right: 100px; */
+ 
+}
+
+.blog-opener-statement {
+margin: 1em;
+
+}
+
+footer {
+  background-color: #eeede1;
+  color:#07212c;
+  padding: 20px 20px;
+  text-align: center;
+  
+}
+
+section { 
+
+  color: #07212c;
+  padding: 20px;
+         
+}
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+nav {
+  text-align: center;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#nav-pages {
+  background-color: #eeede1;
+  text-align: none;
+  padding: 0 0 5em 0;
+  width: auto;
+  height: auto;
+  background: none;
+  position: unset;
+  
+
+}
+
+#pages-header {
+  text-align: left;
+}
+.content-section {
+  margin: 1em;
+
+}
+.container {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+#answer{
+line-height: 1.25em;
+letter-spacing: 0.025em;
+padding-bottom: 2em;
+}
+#question {
+padding-bottom: 1em;
+font-family: proxima-nova, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+
+}
+
+div {
+  background: red;
+  color: #eeede1;
+  width: 100px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color:#07212c;
+}
+
+a:hover {
+  color: #a48948
+  
+}
+
+a:active {
+  color: #a48948;
+}
